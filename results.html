@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de Búsqueda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Resultados de Búsqueda</h1>
+    <table>
+        <thead>
+        <tr>
+            <th>Fuente</th>
+            <th>Detalles</th>
+            <th>Informacion</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Facebook</td>
+            <td>Perfil encontrado con el nombre ingresado.</td>
+            <td>Jhon Smith</td>
+        </tr>
+        <tr>
+            <td>Servicios Públicos</td>
+            <td>Registro de servicios asociados a la persona.</td>
+            <td>Calle 15 # 45-98 barrio bello horizonte</td>
+        </tr>
+        <tr>
+            <td>Registraduria Nacional Del Estado civil</td>
+            <td>Registro de persona.</td>
+            <td>Jhon Smith, 11/09/65, direccion: calle 12 n # 45-65</td>
+        </tr>
+        <tr>
+            <td>Hospitales</td>
+            <td>Registro en hospitales y centros de salud.</td>
+            <td>Jhon Smith ingreso por resfriado en hospital del norte popayan cauca</td>
+        </tr>
+        <tr>
+            <td>Alcaldía municipal</td>
+            <td>Base de datos del DANE</td>
+            <td>Jhon Smith, celular 3008984559, correo: alberthas@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Superintendencia de notariado registro</td>
+            <td>Oficina de instrumentos públicos (certificado de libertad y tradicion)</td>
+            <td>Jhon Smith, calle 14 # 12-99, correo: alberthas@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Empresa de telefonia móvil</td>
+            <td>Movistar</td>
+            <td>3168984545</td>
+        </tr>
+        <tr>
+            <td>Policia nacional</td>
+            <td>Policia metropolitana de popayán</td>
+            <td>Jhon Smith, Genero: M, direccion: calle 65, Celular: 3168489559</td>
+        </tr>
+        </tbody>
+    </table>
+    <button style="margin-top: 50px" type="submit" class="search-button" onclick="redirigir()">Crear mensaje de notificación personal</button>
+</div>
+
+
+<script>
+    function redirigir() {
+        window.location.href = "load.html";
+    }
+</script>
+</body>
+</html>
